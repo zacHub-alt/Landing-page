@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Enoch's Hub - Sharing thoughts, projects, and experiences in tech and innovation." />
+    <meta name="keywords" content="Enoch, Hub, Technology, Innovation, Projects, Professional Development, AI, Generative AI" />
+    <meta name="author" content="Enoch" />
+    <title>Enoch's Hub</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        .projects-section, .skills-section, .blog-section, .contact-section {
+            background: url('assets/img/bg-signup.jpg') no-repeat center center;
+            background-size: cover;
+            color: black; /* Changed to black for better readability */
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .skills-section {
+            background: url('assets/img/IMGP6265.jpg') no-repeat center center;
+            background-size: cover;
+            color: black; /* Changed to black for better readability */
+        }
+        .blog-section {
+            background: url('assets/img/bg-signup.jpg') no-repeat center center;
+            background-size: cover;
+            color: black; /* Changed to black for better readability */
+        }
+        .contact-section {
+            background: none;
+            color: black; /* Ensure text color contrasts well with the background */
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .contact-section .card-body i {
+            font-size: 2rem; /* Make icons larger for better visibility */
+            color: #007bff; /* Set a color that stands out against the background */
+        }
+        .social a {
+            font-size: 2rem; /* Ensure icons are of appropriate size */
+            color: #007bff; /* Set icon color */
+        }
+    </style>
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Enoch's Hub">
+    <meta property="og:description" content="A space to share thoughts, projects, and experiences in technology, innovation, and professional development.">
+    <meta property="og:image" content="assets/img/IMG_20230723_054650_429.jpg">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Enoch's Hub">
+    <meta name="twitter:description" content="A space to share thoughts, projects, and experiences in technology, innovation, and professional development.">
+    <meta name="twitter:image" content="assets/img/IMG_20230723_054650_429.jpg">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Enoch",
+      "url": "https://yourwebsite.com",
+      "sameAs": [
+        "https://twitter.com/yourprofile",
+        "https://facebook.com/yourprofile",
+        "https://github.com/yourprofile"
+      ],
+      "jobTitle": "Aspiring Computer Scientist",
+      "alumniOf": "Your University",
+      "knowsAbout": ["Technology", "Innovation", "AI", "Generative AI"]
+    }
+    </script>
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top">Enoch's Hub</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills & Experiences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <div class="d-flex justify-content-center">
+                <div class="text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Hi I'm Enoch</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Welcome to my Hub.</h2>
+                    <a class="btn btn-primary" href="#about">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- About-->
+    <section class="about-section text-center" id="about">
+        <div class="container px-4 px-lg-5">
+            <img class="img-fluid lazy" src="assets/img/IMG_20230723_054650_429.jpg" alt="Profile Image" loading="lazy" />
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-white mb-4">About Me</h2>
+                    <p class="text-white-50">
+                        Here are a few things about me. I'm a curious and ambitious student with a passion for technology and innovation. I'm driven by a desire to learn and create something meaningful. As an aspiring CS student, I'm always looking for new challenges and opportunities to grow. This website is my space to share my thoughts, projects, and experiences with the world.
+                        <br><br>
+                        Learn more about the rise of AI engineering in this <a href="https://www.latent.space/p/ai-engineer" target="_blank">Latent Space article</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects -->
+    <section class="projects-section" id="projects">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card h-100">
+                        <img class="card-img-top lazy" src="assets/img/pixlr-image-generator-d79d2e86-fd6a-444e-afcd-296407b73029.jpg" alt="ECOSYNC Project Image" loading="lazy">
+                        <div class="card-body">
+                            <h4 class="card-title">ECOSYNC</h4>
+                            <p class="card-text">An innovative solution addressing food insecurity and unstable electricity power supply.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://www.linkedin.com/in/enoch-iwala-502721311/" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card h-100">
+                        <img class="card-img-top lazy" src="assets/img/4d3a8ca3867ddbcde41a94655be3b415.jpg" alt="Online Learning Project Image" loading="lazy">
+                        <div class="card-body">
+                            <h4 class="card-title">Online Learning and Professional Development</h4>
+                            <p class="card-text">Completed various courses and certifications to enhance my skills and knowledge.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://www.linkedin.com/in/enoch-iwala-502721311/" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+    <!-- Skills & Experiences -->
+    <section class="skills-section" id="skills">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mb-4">Skills & Experiences</h2>
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Python Programming</h4>
+                            <p class="card-text">Solid foundation in Python programming, eager to learn and build projects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Web Development</h4>
+                            <p class="card-text">Skilling up in HTML, CSS, JavaScript, and frameworks like Bootstrap for creating responsive websites.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">AI & Machine Learning</h4>
+                            <p class="card-text">Knowledgeable in AI and Machine Learning concepts with Learning experience in building models.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more skill cards as needed -->
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section -->
+    <section class="blog-section" id="blog">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mb-4">Blog</h2>
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card h-100">
+                        <img class="card-img-top lazy" src="assets/img/Untitled-design-14.jpg" alt="Blog Post 1 Image" loading="lazy">
+                        <div class="card-body">
+                            <h4 class="card-title">Behind the AI Curtain: A Headstarter Fellow's Journey</h4>
+                            <p class="card-text">Watch me build an AI product from scratch. As a Headstarter AI Fellow, my final project aims to captivate 1,000 users or generate $1,000 in revenue. Join me on this exciting journey!</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://www.linkedin.com/posts/enoch-iwala-502721311_headstarter-softwareengineering-ai-activity-7221241491795378178-EPns?utm_source=share&utm_medium=member_desktop" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                <!-- Add more blog post cards as needed -->
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section bg-light" id="contact">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50"><a href="mailto:enochiwala2021@gmail.com">enochiwala2021@gmail.com</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Phone</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50">+234 (906) 1501-803</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social d-flex justify-content-center mt-4">
+                <a class="mx-2" href="https://x.com/_lhzc?t=sUwWzw429_8X3p_Y6GoCrw&s=09" style="font-size: 2rem; color: hsl(0, 0%, 0%);"><i class="fab fa-twitter"></i></a>
+                <a class="mx-2" href="https://www.facebook.com/profile.php?id=100094182721481&sfnsn=scwspmo&mibextid=RUbZ1f" style="font-size: 2rem; color: hsl(0, 0%, 0%);"><i class="fab fa-facebook-f"></i></a>
+                <a class="mx-2" href="https://github.com/zacHub-alt" style="font-size: 2rem; color: #010101;"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container px-4 px-lg-5">Copyright &copy; Enoch's Hub 2024</div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
